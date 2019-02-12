@@ -1,5 +1,3 @@
-
-    
 class Hash
   def keys_of(habitat)
   	arr=[]
@@ -9,3 +7,4 @@ class Hash
   		end
   	end
   	arr
+  end
