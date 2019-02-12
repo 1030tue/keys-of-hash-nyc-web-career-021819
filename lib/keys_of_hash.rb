@@ -2,7 +2,7 @@ class Hash
   def keys_of(arguments)
   	arr=[]
   	self.each do |key, val|
-  		if val == habitat
+  		if arguments == val
   			arr << key
   		end
   	end
