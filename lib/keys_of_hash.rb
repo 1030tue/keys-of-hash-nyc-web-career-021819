@@ -6,8 +6,8 @@ class Hash
   	self.each do |key, val|
   		if arguments == val
   			arr << key
-  		
   			bindng.pry
+  			
   		end
   	end
   	arr
