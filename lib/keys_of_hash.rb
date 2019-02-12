@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(habitat)
+  def keys_of(arguments)
   	arr=[]
   	self.each do |key, val|
   		if val == habitat
